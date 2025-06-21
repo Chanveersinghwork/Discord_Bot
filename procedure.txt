@@ -1,0 +1,54 @@
+## 📜 Procedure to Create a Discord Bot with OpenAI API Integration
+
+### ⚙️ Prerequisites:
+
+* Install Python 3.11+
+* Create accounts:
+
+  * Discord Developer Portal: [https://discord.com/developers/applications](https://discord.com/developers/applications)
+  * OpenAI: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+* Install required libraries:
+
+  ```bash
+  pip install discord openai
+  ```
+
+### 🔑 Get Keys:
+
+* **Discord Bot Token:**
+
+  * Go to [https://discord.com/developers/applications](https://discord.com/developers/applications)
+  * Create a New Application → Bot → Enable Privileged Gateway Intents → Copy Token
+
+* **OpenAI API Key:**
+
+  * Go to [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+  * Create a new API key and copy it
+
+### 📁 Project Structure:
+
+```
+discord_bot/
+├── bot.py
+```
+
+### 📜 Run The Bot:
+
+* Save your Python code in `bot.py`
+* Open terminal in project directory
+* Run:
+
+```bash
+python bot.py
+```
+
+## 📣 Reference Links:
+
+* Discord Developer Portal: [https://discord.com/developers/applications](https://discord.com/developers/applications)
+* OpenAI API Keys: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+* OpenAI API Docs: [https://platform.openai.com/docs/api-reference/chat](https://platform.openai.com/docs/api-reference/chat)
+* Discord.py Docs: [https://discordpy.readthedocs.io/en/stable/](https://discordpy.readthedocs.io/en/stable/)
+
+---
+
+**Now you’re set to build and deploy your Discord bot with OpenAI integration!**
